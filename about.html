@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>RedStore-Buy Cloths, Goodies etc</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="">
+                </div></a>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a class="jinga" href="index.html">Home</a></li>
+                        <li><a class="jinga" href="products.html">Products</a></li>
+                        <li><a class="jinga" href="about.html">About</a></li>
+                        <li><a class="jinga" href="contact.html">Contact</a></li>
+                        <li><a class="jinga" href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <!-- foo===============================================================================================================ter -->
+            <div class="account-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/image1.png" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- foo===============================================================================================================ter -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download our App for Android and iOS devices </p>
+                        <div class="app-logo">
+                            <a href="product-details.html"><img src="images/play-store.png" alt=""></a>
+                            <a href="product-details.html"><img src="images/app-store.png" alt=""></a>
+                        </div>
+
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>Our Purpose is to Sustainably Make the Pleasures and Benifits of Sports Accessible to the
+                            many</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Posts</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Facebook</h3>
+                        <ul>
+                            <li>Twitter</li>
+                            <li>Blog Posts</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022</p>
+            </div>
+
+            <script>
+                var MenuItems = document.getElementById("menu-items");
+                MenuItems.style.maxHeight = "0px"
+
+                function menutoggle() {
+                    if (MenuItems.style.maxHeight == "0px") {
+                        MenuItems.style.maxHeight = "200px"
+                    }
+                    else {
+                        MenuItems.style.maxHeight = "0px"
+                    }
+                }
+            </script>
+
+            <script src="https://kit.fontawesome.com/f75965a7f6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
